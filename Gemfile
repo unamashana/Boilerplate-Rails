@@ -8,6 +8,7 @@ gem 'pg'
 gem 'formtastic'
 gem 'jammit'
 #gem 'sass-rails', '>=3.2.3'
+gem 'barista'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -53,4 +54,7 @@ group :test do
   gem 'autotest-notification'
   gem 'pickle'
   gem 'flexmock'
+  gem 'capistrano'
+  gem 'capistrano-campfire'
+  gem 'capistrano-ext'
 end
