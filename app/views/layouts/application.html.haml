@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title= @page_title || "Judge.me"
+    = include_stylesheets :common
+    = include_javascripts :common
+    = javascript_include_tag 'jquery', 'rails', 'application'
+    
+    /[if lt IE 8]
+      = stylesheet_link_tag 'compiled/ie.css', :media => 'screen, projection'
+      = csrf_meta_tag
+  %body
+    #container
+      = render 'layouts/show_flash'
+      = yield

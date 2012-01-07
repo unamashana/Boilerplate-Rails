@@ -1,0 +1,9 @@
+- if flash[:success]
+  %p.alert-message.success= flash[:success]
+- if flash[:notice]
+  %p.alert-message.notice= flash[:notice]
+- if flash[:error] 
+  %p.alert-message.error= flash[:error]
+- if flash[:alert]
+  %p.alert-message.alert= flash[:alert]
+

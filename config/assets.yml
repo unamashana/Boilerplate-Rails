@@ -1,0 +1,12 @@
+compress_assets: false
+
+javascripts:
+  common:
+    - public/javascripts/jquery.js
+    - public/javascripts/jquery.ui.min.js
+    - public/javascripts/rails.js
+
+stylesheets:
+  common:
+    - public/stylesheets/admin/screen.css
+

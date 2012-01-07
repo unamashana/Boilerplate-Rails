@@ -1,0 +1,24 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import "compass/typography/lists/horizontal-list";
+@import "compass/css3";
+
+@import "compass_twitter_bootstrap";
+
+form ol {
+  list-style: none;
+
+  p.inline-errors {
+    color: red;
+  }
+}
+
+.eula{
+  height: 100px;
+  overflow: auto;
+}
